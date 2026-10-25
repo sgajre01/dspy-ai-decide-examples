@@ -2,6 +2,9 @@
 
 The complete notebook passed on Azure Databricks on October 25, 2026.
 
+For the writing handoff, see the [blog research index](../docs/blog-notes/README.md)
+and [consolidated experiment findings](../docs/blog-notes/EXPERIMENT_RESULTS.md).
+
 - [Executed notebook snapshot](initial_run/email_triage.executed.ipynb)
 - [Machine-readable summary](initial_run/evaluation_summary.json)
 - [Predictions](initial_run/predictions.json)
@@ -47,3 +50,4 @@ the test results. The run records source and dataset hashes for inspection.
 Development used DSPy 3.4.1 and Databricks SDK 0.157.0. Six focused offline
 integration/arithmetic checks also passed. Files under `runs/` are local raw
 run captures and are ignored by Git; `initial_run/` holds the selected evidence.
+
