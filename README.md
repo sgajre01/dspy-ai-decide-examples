@@ -5,6 +5,10 @@ A small runnable email-triage example: connect DSPy `Predict` to Databricks
 binary threshold with the actual ReAnchor optimizer. This is companion code in
 development for an article, not the article itself.
 
+The [blog research notes](docs/blog-notes/README.md) collect the verified findings,
+experiment boundaries, code excerpts, and article outline. The integration works;
+the completed email run showed no optimizer quality gain over threshold 0.5.
+
 ## Start here
 
 Open [the notebook](notebooks/email_triage.ipynb), or inspect the
