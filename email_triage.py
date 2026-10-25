@@ -114,3 +114,4 @@ def contextual_decisions(rows, critical_threshold=0.3, standard_threshold=0.5):
     policies = {"critical": critical_threshold, "standard": standard_threshold}
     return [{**r, "threshold": policies[r["customer_tier"]],
              "decision": r["probability"] >= policies[r["customer_tier"]]} for r in rows]
+
