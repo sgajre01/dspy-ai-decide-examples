@@ -7,7 +7,8 @@ development for an article, not the article itself.
 
 ## Start here
 
-Open [the notebook](notebooks/email_triage.ipynb). It walks through:
+Open [the notebook](notebooks/email_triage.ipynb), or inspect the
+[executed snapshot and first live results](results/README.md). It walks through:
 
 1. A reusable task signature and a live Databricks-backed `Predict` call.
 2. A manual threshold that leaves the model probability unchanged.
@@ -121,3 +122,4 @@ test outcomes and then claim the same test remains held out.
 - [Databricks ai_decide](https://learn.microsoft.com/en-us/azure/databricks/sql/language-manual/functions/ai_decide).
 - [Databricks Git folders](https://learn.microsoft.com/en-us/azure/databricks/repos/git-operations-with-repos).
 - [DSPy ReAnchor documentation](https://dspy.ai/current/api/experimental/ReAnchor/) — current docs may differ from this pinned release.
+
