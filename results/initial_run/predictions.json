@@ -1,0 +1,1042 @@
+{
+  "train_baseline": [
+    {
+      "id": "train-001",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-002",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.02,
+      "decision": false
+    },
+    {
+      "id": "train-003",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "train-004",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.05,
+      "decision": false
+    },
+    {
+      "id": "train-005",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-006",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.02,
+      "decision": false
+    },
+    {
+      "id": "train-007",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-008",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.0,
+      "decision": false
+    },
+    {
+      "id": "train-009",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "train-010",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.11,
+      "decision": false
+    },
+    {
+      "id": "train-011",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "train-012",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.06,
+      "decision": false
+    },
+    {
+      "id": "train-013",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-014",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.04,
+      "decision": false
+    },
+    {
+      "id": "train-015",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-016",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.18,
+      "decision": false
+    },
+    {
+      "id": "train-017",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "train-018",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.09,
+      "decision": false
+    },
+    {
+      "id": "train-019",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.97,
+      "decision": true
+    },
+    {
+      "id": "train-020",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.06,
+      "decision": false
+    },
+    {
+      "id": "train-021",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-022",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.24,
+      "decision": false
+    },
+    {
+      "id": "train-023",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-024",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.11,
+      "decision": false
+    },
+    {
+      "id": "train-025",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "train-026",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.02,
+      "decision": false
+    },
+    {
+      "id": "train-027",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-028",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.03,
+      "decision": false
+    },
+    {
+      "id": "train-029",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "train-030",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.08,
+      "decision": false
+    },
+    {
+      "id": "train-031",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "train-032",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.2,
+      "decision": false
+    },
+    {
+      "id": "train-033",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "train-034",
+      "split": "train",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.0,
+      "decision": false
+    },
+    {
+      "id": "train-035",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "train-036",
+      "split": "train",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.22,
+      "decision": false
+    }
+  ],
+  "validation_baseline": [
+    {
+      "id": "validation-001",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "validation-002",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.08,
+      "decision": false
+    },
+    {
+      "id": "validation-003",
+      "split": "validation",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "validation-004",
+      "split": "validation",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.01,
+      "decision": false
+    },
+    {
+      "id": "validation-005",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "validation-006",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.09,
+      "decision": false
+    },
+    {
+      "id": "validation-007",
+      "split": "validation",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "validation-008",
+      "split": "validation",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.02,
+      "decision": false
+    },
+    {
+      "id": "validation-009",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "validation-010",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.22,
+      "decision": false
+    },
+    {
+      "id": "validation-011",
+      "split": "validation",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "validation-012",
+      "split": "validation",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.14,
+      "decision": false
+    },
+    {
+      "id": "validation-013",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "validation-014",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.32,
+      "decision": false
+    },
+    {
+      "id": "validation-015",
+      "split": "validation",
+      "customer_tier": "standard",
+      "expected": true,
+      "probability": 0.99,
+      "decision": true
+    },
+    {
+      "id": "validation-016",
+      "split": "validation",
+      "customer_tier": "standard",
+      "expected": false,
+      "probability": 0.32,
+      "decision": false
+    },
+    {
+      "id": "validation-017",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": true,
+      "probability": 0.98,
+      "decision": true
+    },
+    {
+      "id": "validation-018",
+      "split": "validation",
+      "customer_tier": "critical",
+      "expected": false,
+      "probability": 0.01,
+      "decision": false
+    }
+  ],
+  "test": {
+    "baseline": [
+      {
+        "id": "test-001",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.98,
+        "decision": true
+      },
+      {
+        "id": "test-002",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.1,
+        "decision": false
+      },
+      {
+        "id": "test-003",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-004",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.4,
+        "decision": false
+      },
+      {
+        "id": "test-005",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-006",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.18,
+        "decision": false
+      },
+      {
+        "id": "test-007",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-008",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.53,
+        "decision": true
+      },
+      {
+        "id": "test-009",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-010",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.04,
+        "decision": false
+      },
+      {
+        "id": "test-011",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-012",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.29,
+        "decision": false
+      },
+      {
+        "id": "test-013",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.98,
+        "decision": true
+      },
+      {
+        "id": "test-014",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.14,
+        "decision": false
+      },
+      {
+        "id": "test-015",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.97,
+        "decision": true
+      },
+      {
+        "id": "test-016",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.02,
+        "decision": false
+      },
+      {
+        "id": "test-017",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-018",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.02,
+        "decision": false
+      }
+    ],
+    "manual": [
+      {
+        "id": "test-001",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.98,
+        "decision": true
+      },
+      {
+        "id": "test-002",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.1,
+        "decision": false
+      },
+      {
+        "id": "test-003",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-004",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.4,
+        "decision": true
+      },
+      {
+        "id": "test-005",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-006",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.18,
+        "decision": false
+      },
+      {
+        "id": "test-007",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-008",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.53,
+        "decision": true
+      },
+      {
+        "id": "test-009",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-010",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.04,
+        "decision": false
+      },
+      {
+        "id": "test-011",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-012",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.29,
+        "decision": false
+      },
+      {
+        "id": "test-013",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.98,
+        "decision": true
+      },
+      {
+        "id": "test-014",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.14,
+        "decision": false
+      },
+      {
+        "id": "test-015",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.97,
+        "decision": true
+      },
+      {
+        "id": "test-016",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.02,
+        "decision": false
+      },
+      {
+        "id": "test-017",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-018",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.02,
+        "decision": false
+      }
+    ],
+    "reanchor": [
+      {
+        "id": "test-001",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.98,
+        "decision": true
+      },
+      {
+        "id": "test-002",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.1,
+        "decision": false
+      },
+      {
+        "id": "test-003",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-004",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.4,
+        "decision": false
+      },
+      {
+        "id": "test-005",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-006",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.18,
+        "decision": false
+      },
+      {
+        "id": "test-007",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-008",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.53,
+        "decision": true
+      },
+      {
+        "id": "test-009",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-010",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.04,
+        "decision": false
+      },
+      {
+        "id": "test-011",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-012",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.29,
+        "decision": false
+      },
+      {
+        "id": "test-013",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.98,
+        "decision": true
+      },
+      {
+        "id": "test-014",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.14,
+        "decision": false
+      },
+      {
+        "id": "test-015",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.97,
+        "decision": true
+      },
+      {
+        "id": "test-016",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.02,
+        "decision": false
+      },
+      {
+        "id": "test-017",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true
+      },
+      {
+        "id": "test-018",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.02,
+        "decision": false
+      }
+    ],
+    "contextual": [
+      {
+        "id": "test-001",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.98,
+        "decision": true,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-002",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.1,
+        "decision": false,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-003",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true,
+        "threshold": 0.5
+      },
+      {
+        "id": "test-004",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.4,
+        "decision": false,
+        "threshold": 0.5
+      },
+      {
+        "id": "test-005",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-006",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.18,
+        "decision": false,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-007",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true,
+        "threshold": 0.5
+      },
+      {
+        "id": "test-008",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.53,
+        "decision": true,
+        "threshold": 0.5
+      },
+      {
+        "id": "test-009",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-010",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.04,
+        "decision": false,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-011",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true,
+        "threshold": 0.5
+      },
+      {
+        "id": "test-012",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.29,
+        "decision": false,
+        "threshold": 0.5
+      },
+      {
+        "id": "test-013",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.98,
+        "decision": true,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-014",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.14,
+        "decision": false,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-015",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": true,
+        "probability": 0.97,
+        "decision": true,
+        "threshold": 0.5
+      },
+      {
+        "id": "test-016",
+        "split": "test",
+        "customer_tier": "standard",
+        "expected": false,
+        "probability": 0.02,
+        "decision": false,
+        "threshold": 0.5
+      },
+      {
+        "id": "test-017",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": true,
+        "probability": 0.99,
+        "decision": true,
+        "threshold": 0.3
+      },
+      {
+        "id": "test-018",
+        "split": "test",
+        "customer_tier": "critical",
+        "expected": false,
+        "probability": 0.02,
+        "decision": false,
+        "threshold": 0.3
+      }
+    ]
+  }
+}
