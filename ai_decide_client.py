@@ -60,3 +60,4 @@ class AiDecide(TypeSafe):
     async def acall(self, state, questions):
         raise NotImplementedError("This blog client is synchronous; async is out of scope.")
 
+
