@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-25T17:02:39.839977+00:00",
+  "python": "3.10.12",
+  "dspy_version": "3.4.1",
+  "databricks_sdk_version": "0.157.0",
+  "ai_decide_version": "1.0",
+  "data": {
+    "synthetic": true,
+    "sha256": "a36d5a95243170a2b79a5b0c009e6c145f4da11243715ae60e913e8870f934a0",
+    "split_sizes": {
+      "train": 36,
+      "validation": 18,
+      "test": 18
+    }
+  },
+  "source_sha256": {
+    "ai_decide_client.py": "a7d96bedbcd7732e62ac16a6eb64a8e6a46bd6195641dab04e4468a4d92db163",
+    "email_triage.py": "6fc5ee59fed15b650bb6d22222f59118fb1f65497868455f2792eb742f156e34",
+    "requirements.txt": "e71a44f0873ca5d65a5037e1586a67b7f5a86b112b82ace33d535c415f3458da"
+  },
+  "reanchor_source_sha256": "33fa0d10d9ba228b40d6ac066987bc5ac4d6a972e07544c32e9c7ce8a20908d8",
+  "costs": {
+    "missed_reply_cost": 2.0,
+    "false_alert_cost": 1.0
+  },
+  "policies": {
+    "baseline": 0.5,
+    "manual": 0.3,
+    "reanchor": 0.5,
+    "contextual": {
+      "critical": 0.3,
+      "standard": 0.5
+    }
+  },
+  "optimizer_report": {
+    "train_score_before": 1.0,
+    "train_score": 1.0,
+    "fitted": [
+      {
+        "predictor": "self",
+        "field": "needs_response",
+        "parameter": "threshold",
+        "train_score": 1.0,
+        "train_score_at_start": 1.0,
+        "observed": {
+          "calls": 36,
+          "distinct": 16,
+          "min": 0.0,
+          "max": 0.99,
+          "candidates": 17
+        },
+        "fold_check": {
+          "passed": 0,
+          "failed": 0
+        },
+        "train_score_original": 1.0,
+        "skipped": "fitted behavior did not beat the original"
+      }
+    ],
+    "val_score_before": 1.0,
+    "val_score": 1.0
+  },
+  "test_metrics": {
+    "baseline": {
+      "emails": 18,
+      "true_positives": 9,
+      "true_negatives": 8,
+      "missed_replies": 0,
+      "false_alerts": 1,
+      "accuracy": 0.9444444444444444,
+      "recall": 1.0,
+      "precision": 0.9,
+      "total_error_cost": 1.0,
+      "error_cost_per_email": 0.05555555555555555,
+      "business_score": 0.9722222222222222
+    },
+    "manual": {
+      "emails": 18,
+      "true_positives": 9,
+      "true_negatives": 7,
+      "missed_replies": 0,
+      "false_alerts": 2,
+      "accuracy": 0.8888888888888888,
+      "recall": 1.0,
+      "precision": 0.8181818181818182,
+      "total_error_cost": 2.0,
+      "error_cost_per_email": 0.1111111111111111,
+      "business_score": 0.9444444444444444
+    },
+    "reanchor": {
+      "emails": 18,
+      "true_positives": 9,
+      "true_negatives": 8,
+      "missed_replies": 0,
+      "false_alerts": 1,
+      "accuracy": 0.9444444444444444,
+      "recall": 1.0,
+      "precision": 0.9,
+      "total_error_cost": 1.0,
+      "error_cost_per_email": 0.05555555555555555,
+      "business_score": 0.9722222222222222
+    },
+    "contextual": {
+      "emails": 18,
+      "true_positives": 9,
+      "true_negatives": 8,
+      "missed_replies": 0,
+      "false_alerts": 1,
+      "accuracy": 0.9444444444444444,
+      "recall": 1.0,
+      "precision": 0.9,
+      "total_error_cost": 1.0,
+      "error_cost_per_email": 0.05555555555555555,
+      "business_score": 0.9722222222222222
+    }
+  },
+  "calls": {
+    "total": 72,
+    "additional_during_compile": 0,
+    "note": "Logical calls reaching the SDK; SDK transport retries are not counted separately."
+  },
+  "compile_seconds": 0.3399452970006678,
+  "checks": {
+    "raw_probability_preserved": true,
+    "manual_cache_reused": true,
+    "test_probabilities_unchanged": true,
+    "contextual_predict_matches_rule": true,
+    "save_load": true,
+    "actual_unmodified_reanchor": true
+  },
+  "finding": "ReAnchor test error cost was unchanged versus threshold 0.5 on these synthetic emails.",
+  "limitations": [
+    "Synthetic examples with labels authored by the example's developer, not a benchmark",
+    "Not a native official connector; pinned experimental DSPy interface",
+    "Only synchronous binary Noul; no Score, Choice, async, or provider comparison",
+    "No model training, changed probabilities, or real-world benefit claim"
+  ]
+}
